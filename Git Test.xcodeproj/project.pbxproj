@@ -21,6 +21,7 @@
 		5938F315191A7A1F00A7381E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5938F2F7191A7A1F00A7381E /* UIKit.framework */; };
 		5938F31D191A7A1F00A7381E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5938F31B191A7A1F00A7381E /* InfoPlist.strings */; };
 		5938F31F191A7A1F00A7381E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5938F31E191A7A1F00A7381E /* Git_TestTests.m */; };
+		5938F32A191A7F2900A7381E /* CDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5938F329191A7F2900A7381E /* CDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5938F31A191A7A1F00A7381E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		5938F31C191A7A1F00A7381E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5938F31E191A7A1F00A7381E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		5938F328191A7F2900A7381E /* CDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTest.h; sourceTree = "<group>"; };
+		5938F329191A7F2900A7381E /* CDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				5938F305191A7A1F00A7381E /* Main.storyboard */,
 				5938F308191A7A1F00A7381E /* CDViewController.h */,
 				5938F309191A7A1F00A7381E /* CDViewController.m */,
+				5938F328191A7F2900A7381E /* CDTest.h */,
+				5938F329191A7F2900A7381E /* CDTest.m */,
 				5938F30B191A7A1F00A7381E /* Images.xcassets */,
 				5938F2FA191A7A1F00A7381E /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				5938F300191A7A1F00A7381E /* main.m in Sources */,
 				5938F304191A7A1F00A7381E /* CDAppDelegate.m in Sources */,
+				5938F32A191A7F2900A7381E /* CDTest.m in Sources */,
 				5938F30A191A7A1F00A7381E /* CDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
